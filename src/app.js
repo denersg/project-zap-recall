@@ -1,7 +1,7 @@
 import { useState } from "react";
 import HomeScreen from "./components/HomeScreen";
 import Page from "./components/Page";
-import MainScreen from "./components/MainScreen/tela2-dos-flashcards";
+import Deck from "./components/Deck/tela2-dos-flashcards";
 
 export default function App(){
     const [page, setPage] = useState("home");
@@ -11,12 +11,12 @@ export default function App(){
             {/* {page === "home" && <HomeScreen setPage={setPage} />}
             {page !== "home" && (
                 <Page>
-                    {page === "deck" && <MainScreen setPage={setPage} />}
+                    {page === "deck" && <Deck setPage={setPage} />}
                 </Page>
             )} */}
 
             {/* ----- Versão para 1 tela ----- */}
-            {page === "home" ? <HomeScreen setPage={setPage} /> : <MainScreen setPage={setPage} />}
+            {page === "home" ? <HomeScreen setPage={setPage} /> : <Deck setPage={setPage} />}
         </div>
     );
 }

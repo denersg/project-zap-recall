@@ -1,4 +1,4 @@
-.mainscreen-content{
+.deck-content{
     /* background-color: yellowgreen; */
     width: 370px;
     height: 100vh;
@@ -65,7 +65,13 @@
     font-size: 30px;
 }
 
-.mainscreen-content .progress{
+.teste{
+    height: 100px;
+    background-color: springgreen;
+}
+
+/* Rodapé que mostra o progresso */
+.deck-content .progress{
     width: 100%;
     height: 50px;
 
