@@ -26,12 +26,25 @@ export default function FlashCard({ index, question, answer }){
     }
 
     if(isAnswered){
-        console.log("Status: "+status)/*Só imprime o status depois
-                                        que o botão foi escolhido!*/
+        let answeredStyle, answeredIcon;
+        if(status === "incorrect"){
+            answeredStyle = "incorrect-answer";
+            answeredIcon = "close";
+        }
+        else if(status === "correct"){
+            answeredStyle = "correct-answer";
+            answeredIcon = "help";
+        }
+        else{
+            answeredStyle = "zap-answer";
+            answeredIcon = "checkmark";
+        }
+        // console.log("Status: "+status)/*Só imprime o status depois
+        //                                 que o botão foi escolhido!*/
         return(
-            <div className="answered-card">
+            <div className={`answered-card ${answeredStyle}`}>
                 <span>{index}</span>
-                <ion-icon name="checkmark-circle"></ion-icon>
+                <ion-icon name={`${answeredIcon}-circle`}></ion-icon>
             </div>
         );
     }
