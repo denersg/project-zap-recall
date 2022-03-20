@@ -31,7 +31,8 @@
     width: 26px;
 }
 
-.questions{
+/* Estilo do flashcard de índice, com o botão de play */
+.flashcard{
     /* background-color: orange; */
     width: 340px;
 
@@ -47,7 +48,7 @@
     color: #333333;
 }
 
-.questions p{
+.flashcard p{
     background-color: #fff;
     height: 50px;
 
@@ -61,14 +62,13 @@
     border-radius: 5px;
 }
 
-.questions ion-icon{
+.flashcard ion-icon{
     font-size: 30px;
 }
 
-.teste{
-    height: 100px;
-    background-color: springgreen;
-}
+
+
+
 
 /* Rodapé que mostra o progresso */
 .deck-content .progress{
