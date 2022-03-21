@@ -3,7 +3,6 @@ import "./style.css";
 
 export default function HomeScreen({ setPage }){
     return(
-        // <div className="homescreen-content hidden">
         <div className="homescreen-content">
             <div className="logo-top">
                 <img src={Logo} alt="logo-zaprecall" />

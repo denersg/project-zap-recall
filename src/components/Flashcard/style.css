@@ -1,8 +1,5 @@
 /* Estilo do flashcard com a pergunta e a seta de virar */
 .flashcard-question, .flashcard-response{
-    /* background-color: springgreen; */
-    /* height: 100px; */
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,11 +10,9 @@
 }
 
 .flashcard-question span, .flashcard-response span{
-    /* background-color: royalblue; */
 
     padding: 8px 8px;/*Vertical: 8px | Lados: 8px*/
 
-    /* background-color: #fff; */
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -25,7 +20,6 @@
 }
 
 .flashcard-question .turn-button{
-    /* background-color: yellow; */
     display: flex;
     justify-content: flex-end;
     padding-right: 5px;
@@ -38,7 +32,6 @@
 
 /* Parte do rodapé do card com a resposta */
 .flashcard-response .footer{
-    /* background-color: chartreuse; */
     display: flex;
     justify-content: space-between;
 

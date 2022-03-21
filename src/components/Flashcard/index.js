@@ -1,6 +1,6 @@
 import { useState } from "react/cjs/react.development";
 import TurnIcon from "../../assets/turn-icon.svg";
-import "./styleflashcard.css";
+import "./style.css";
 
 function Footer({ answerFlashCard }){
     return(
@@ -12,17 +12,17 @@ function Footer({ answerFlashCard }){
     );
 }
 
-export default function FlashCard({ index, question, answer }){
+export default function FlashCard({ currentPosition, updateDeck, goNext, index, question, answer }){
     const [isTurnedToQuestion, setIsTurnedToQuestion] = useState(false);
     const [isTurnedToResponse, setIsTurnedToResponse] = useState(false);
     const [isAnswered, setIsAnswered] = useState(false);
     const [status, setStatus] = useState("");
-    // console.log(isTurnedToResponse)
 
     function answerFlashCard(status){
         setStatus(status);
         setIsAnswered(true);
-        //Criar a função de acançar a posição
+        updateDeck(currentPosition - 1, status);
+        goNext();
     }
 
     if(isAnswered){
@@ -39,8 +39,6 @@ export default function FlashCard({ index, question, answer }){
             answeredStyle = "zap-answer";
             answeredIcon = "checkmark";
         }
-        // console.log("Status: "+status)/*Só imprime o status depois
-        //                                 que o botão foi escolhido!*/
         return(
             <div className={`answered-card ${answeredStyle}`}>
                 <span>{index}</span>

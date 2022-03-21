@@ -1,5 +1,4 @@
 .homescreen-content{
-    /* background-color: aquamarine; */
     width: 152px;
     height: 204px;
 
@@ -28,8 +27,6 @@
 }
 
 .logo-top{
-    /* background-color: yellow; */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

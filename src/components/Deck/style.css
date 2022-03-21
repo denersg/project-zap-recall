@@ -1,5 +1,4 @@
 .deck-content{
-    /* background-color: yellowgreen; */
     width: 370px;
     height: 100vh;
 
@@ -14,9 +13,6 @@
 
 .top-logo{
     width: 182px;
-    /* height: 30px; */
-    
-    /* background-color: darkorchid; */
     display: flex;
     justify-content: space-between;
 
@@ -33,7 +29,6 @@
 
 /* Estilo do flashcard de índice, com o botão de play */
 .flashcard{
-    /* background-color: orange; */
     width: 340px;
 
     display: flex;
@@ -66,10 +61,6 @@
     font-size: 30px;
 }
 
-
-
-
-
 /* Rodapé que mostra o progresso */
 .deck-content .progress{
     width: 100%;
@@ -86,23 +77,49 @@
     background-color: #fff;
 }
 
+/* Rodapé com a mensagem 'Putz...' ou de Parabéns */
+.footer-putz, .footer-congratulations{
+    width: 100%;
+    height: 171px;
 
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
 
+    display: flex;
+    justify-content: center;
 
+    background-color: #fff;
+}
 
+.footer-container{
+    width: 340px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container .mood{
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.footer-container .message{
+    width: 210px;
+    margin-bottom: 14px;
+    text-align: center;
+}
 
 /*  Espaçamento para o final da lista de perguntas  */
 .space{
-    /* background-color: black; */
     height: 60px;
 }
 
 /* --------- Configurações do Scroll --------- */
 ::-webkit-scrollbar{
     display: none;
-    /* height: 8px;
-    width: 8px; */
 }
 
 ::-webkit-scrollbar-thumb{
