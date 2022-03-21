@@ -12,11 +12,11 @@ function TopLogo(){
     );
 }
 
-function FooterProgress(){
+function FooterProgress({ deckSize }){
     return(
         <footer className="progress">
             <p>
-                <span className="current-position">0</span>/<span className="deck-size">4</span> CONCLUÍDOS
+                <span className="current-position">0</span>/<span className="deck-size">{deckSize}</span> CONCLUÍDOS
             </p>
         </footer>
     );
@@ -47,6 +47,8 @@ export default function Deck({ setPage }){
         }
     ]);
 
+    //PAREI AQUI: na criação do currentPosition
+
     const pack = deck.map(card => (
         <FlashCard
             key={card.index} 
@@ -65,7 +67,7 @@ export default function Deck({ setPage }){
                         outro projeto.*/}
                 <div className="space"></div>
             </div>
-            <FooterProgress />
+            <FooterProgress deckSize={deck.length} />
         </div>
     );
 }
