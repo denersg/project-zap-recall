@@ -11,7 +11,10 @@
 
 <div align="center">
   <img src="https://img.shields.io/github/languages/count/denersg/project-zap-recall?style=for-the-badge">
+  
   <img src="https://img.shields.io/github/last-commit/denersg/project-zap-recall?style=for-the-badge">
+  
+  
   <img src="https://img.shields.io/github/stars/denersg/project-zap-recall?color=%23ffb300&style=for-the-badge">
   
 </div>
