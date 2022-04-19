@@ -38,7 +38,7 @@ Você pode visualizar o projeto em: https://project-zap-recall.vercel.app/
 
 ## 🎨 Layout
 
-Layout disponível para versões de computador, tablet e celulares.
+Layout disponível para versões de computador e celulares.
 
 ### 🤳 Mobile
 
