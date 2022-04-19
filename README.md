@@ -26,8 +26,10 @@ O projeto foi feito com base em um jogo de cartões (flashcards), em que fixamos
 ## 📋 Features
 
 - [x] Exibição de perguntas e respostas no mesmo cartão
-- [x] Estilização no card mostrando o status da pergunta que acabou de ser respondida
+- [x] Botão de virar o cartão
 - [x] Botões para a escolha da resposta desejada
+- [x] Estilização no card mostrando o status da pergunta que acabou de ser respondida
+- [x] Mensagem de congratulação ou perda ao final
 - [x] Responsividade
 
 ## ⚙️ Deploy
@@ -41,9 +43,12 @@ Layout disponível para versões de computador, tablet e celulares.
 ### 🤳 Mobile
 
 <div align="center">
-  <img width="250px" src="https://user-images.githubusercontent.com/39387376/158062653-bd34ce66-cf06-44e3-acfd-00db26e485ee.png" >
-  <img width="250px" src="https://user-images.githubusercontent.com/39387376/158062670-3eb050eb-3b2d-438b-ab04-ff26d4c4d09f.png" >
-  <img width="250px" src="https://user-images.githubusercontent.com/39387376/158062689-a737d728-5d56-4e38-a8e7-04e1a6610dc6.png" >
+  <img width="250px" src="https://user-images.githubusercontent.com/39387376/164018833-211722e1-d3ad-410e-9b08-09eb3cf4f92f.png" >
+  <img width="250px" src="https://user-images.githubusercontent.com/39387376/164018856-b54686e2-311e-40ba-8fae-93afa1070950.png" >
+  <img width="250px" src="https://user-images.githubusercontent.com/39387376/164018873-405d865d-d23f-491b-b943-af7ba171fdce.png" >
+  <img width="250px" src="https://user-images.githubusercontent.com/39387376/164018898-c553775e-678e-4311-ab83-bb4fa3fe53f5.png" >
+  <img width="250px" src="https://user-images.githubusercontent.com/39387376/164018934-1b94d157-cbaf-4493-81fd-ef7c3568d1ee.png" >
+  <img width="250px" src="https://user-images.githubusercontent.com/39387376/164018953-b9e04098-77c9-4aff-bb01-3289021728ba.png" >
 </div>
 
 
@@ -52,12 +57,11 @@ Layout disponível para versões de computador, tablet e celulares.
 
 
 
-
-### 💻 Desktop & 📱 Tablet
+### 💻 Desktop
 
 <div align="center">
-  <img width="500px" src="https://user-images.githubusercontent.com/39387376/158062478-f2f544c4-f931-4bc7-bc08-bc5410980b2e.png" >
-  <img width="300px" src="https://user-images.githubusercontent.com/39387376/158062504-ac5e6ad8-c592-4f51-83f8-25399b86fbaa.png" >
+  <img width="500px" src="https://user-images.githubusercontent.com/39387376/164018562-34a10b43-2ed4-4c68-9435-0ccb0387f62a.png" >
+  <img width="500px" src="https://user-images.githubusercontent.com/39387376/164018614-39eb6503-a0ab-42ee-9a18-7d4c1d66068f.png" >
 </div>
 
 ## 📝 Licença
